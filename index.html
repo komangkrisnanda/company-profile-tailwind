@@ -1,95 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-      .font-montserrat{
-        font-family: "Montserrat"
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container mx-auto">
-      <header class="flex flex-row items-center justify-between p-4">
-        <h3 class="font-bold font-montserrat text-3xl">company.</h3>
-        <nav class="flex flex-row font-montserrat gap-4 font-bold text-2xl">
-          <div class="p-4">Demo</div>
-          <div class="p-4">How It Works</div>
-          <div class="p-4">Integrations</div>
-          <div class="p-4">Pricing</div>
-          <div class="bg-[#3534d2] text-white p-4 rounded-xl cursor-pointer hover:bg-opacity-50 ">Get Started</div>
-        </nav>
-      </header>
-      <!-- Hero Section-->
-      <section class="flex h-[80vh] flex-row items-center mt-10">
-        <div class="flex-1">
-          <div class="text-6xl font-bold">grow your <span class="text-[#3534d2]">business</span><br/>with us.</div>
-          <div class="text-2xl my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </div>
-          <div class="bg-[#3534d2] text-white max-w-40 text-center my-4 font-bold tracking-widest hover:bg-opacity-50 p-4 rounded-xl cursor-pointer">Learn More</div>
-        </div>
-        <div class="flex-1">
-          <img src="./public/assets/illustration.svg" />
-        </div>
-      </section>
-      <!-- Hero Section-->
 
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+    .font-montserrat {
+      font-family: "Montserrat"
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container mx-auto">
+    <header class="flex flex-row items-center justify-between p-4">
+      <h3 class="font-bold font-montserrat text-3xl">company.</h3>
+      <nav class="flex flex-row font-montserrat gap-4 font-bold text-2xl">
+        <div class="p-4">Demo</div>
+        <div class="p-4">How It Works</div>
+        <div class="p-4">Integrations</div>
+        <div class="p-4">Pricing</div>
+        <div class="bg-[#3534d2] text-white p-4 rounded-xl cursor-pointer hover:bg-opacity-50 ">Get Started</div>
+      </nav>
+    </header>
+    <!-- Hero Section-->
+    <section class="flex h-[80vh] flex-row items-center mt-10">
+      <div class="flex-1">
+        <div class="text-6xl font-bold">grow your <span class="text-[#3534d2]">business</span><br />with us.</div>
+        <div class="text-2xl my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div
+          class="bg-[#3534d2] text-white max-w-40 text-center my-4 font-bold tracking-widest hover:bg-opacity-50 p-4 rounded-xl cursor-pointer">
+          Learn More</div>
+      </div>
+      <div class="flex-1">
+        <img src="./public/assets/illustration.svg" />
+      </div>
+    </section>
+    <!-- Hero Section-->
+
+  </div>
+
+  <!-- About Section-->
+  <section class="bg-[#3534d2] h-[100vh]">
+    <div class="container mx-auto h-full">
+      <div class="flex h-full items-center">
+        <div class="flex-1">
+          <img class="mx-auto rounded-xl filter hover:grayscale cursor-pointer transition ease-in-out"
+            src="https://images.pexels.com/photos/3182750/pexels-photo-3182750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="">
+        </div>
+        <div class="flex-1 text-white flex flex-col gap-4 font-montserrat">
+          <h3 class="text-2xl font-bold">About Us</h3>
+          <p class="text-xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit odit, ad, ex at
+            vitae necessitatibus ab dolorum nihil sunt vero laboriosam. Quas excepturi enim modi cupiditate dolore sed
+            odit temporibus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, molestias. Dolor saepe
+            dicta, illum modi sed maxime repellendus deserunt ex odio, dolorem nemo reprehenderit repellat! Adipisci,
+            sint alias. Cupiditate, esse!</p>
+          <div
+            class="text-[#3534d2] bg-white max-w-40 text-center my-4 font-bold tracking-widest hover:bg-opacity-50 p-4 rounded-xl cursor-pointer">
+            Learn More</div>
+        </div>
+      </div>
     </div>
-    
-      <!-- About Section-->
-      <section class="bg-[#3534d2] h-[100vh]">
-        <div class="container mx-auto h-full">
-          <div class="flex h-full items-center">
-            <div class="flex-1">
-              <img class="mx-auto rounded-xl filter hover:grayscale cursor-pointer transition ease-in-out" src="https://images.pexels.com/photos/3182750/pexels-photo-3182750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-            </div>
-            <div class="flex-1 text-white flex flex-col gap-4 font-montserrat">
-              <h3 class="text-2xl font-bold">About Us</h3>
-              <p class="text-xl text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit odit, ad, ex at vitae necessitatibus ab dolorum nihil sunt vero laboriosam. Quas excepturi enim modi cupiditate dolore sed odit temporibus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, molestias. Dolor saepe dicta, illum modi sed maxime repellendus deserunt ex odio, dolorem nemo reprehenderit repellat! Adipisci, sint alias. Cupiditate, esse!</p>
-              <div class="text-[#3534d2] bg-white max-w-40 text-center my-4 font-bold tracking-widest hover:bg-opacity-50 p-4 rounded-xl cursor-pointer">Learn More</div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- About Section-->
+  </section>
+  <!-- About Section-->
 
-      <!-- Our Service-->
-      <section class=" h-[100vh]">
-        <div class="container mx-auto h-full">
-          <div class="flex flex-col gap-8 items-center justify-center h-full font-montserrat">
-            <div class="text-2xl font-bold">Our Services</div>
-            <div class="grid grid-cols-3 gap-8">
-              <div>
-                <img class="rounded-xl" src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-                <h3 class="text-center mt-4 font-bold text-xl">Service 1</h3>
-              </div>
-              <div>
-                <img class="rounded-xl" src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-                <h3 class="text-center mt-4 font-bold text-xl">Service 2</h3>
-              </div>
-              <div>
-                <img class="rounded-xl" src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-                <h3 class="text-center mt-4 font-bold text-xl">Service 3</h3>
-              </div>
-              <div>
-                <img class="rounded-xl" src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-                <h3 class="text-center mt-4 font-bold text-xl">Service 4</h3>
-              </div>
-              <div>
-                <img class="rounded-xl" src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-                <h3 class="text-center mt-4 font-bold text-xl">Service 5</h3>
-              </div>
-              <div>
-                <img class="rounded-xl" src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-                <h3 class="text-center mt-4 font-bold text-xl">Service 6</h3>
-              </div>
-            </div>
+  <!-- Our Service-->
+  <section class=" h-[100vh]">
+    <div class="container mx-auto h-full">
+      <div class="flex flex-col gap-8 items-center justify-center h-full font-montserrat">
+        <div class="text-2xl font-bold">Our Services</div>
+        <div class="grid grid-cols-3 gap-8">
+          <div>
+            <img class="rounded-xl"
+              src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="">
+            <h3 class="text-center mt-4 font-bold text-xl">Service 1</h3>
+          </div>
+          <div>
+            <img class="rounded-xl"
+              src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="">
+            <h3 class="text-center mt-4 font-bold text-xl">Service 2</h3>
+          </div>
+          <div>
+            <img class="rounded-xl"
+              src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="">
+            <h3 class="text-center mt-4 font-bold text-xl">Service 3</h3>
+          </div>
+          <div>
+            <img class="rounded-xl"
+              src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="">
+            <h3 class="text-center mt-4 font-bold text-xl">Service 4</h3>
+          </div>
+          <div>
+            <img class="rounded-xl"
+              src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="">
+            <h3 class="text-center mt-4 font-bold text-xl">Service 5</h3>
+          </div>
+          <div>
+            <img class="rounded-xl"
+              src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="">
+            <h3 class="text-center mt-4 font-bold text-xl">Service 6</h3>
           </div>
         </div>
-      </section>
-      <!-- Our Service-->
-  </body>
+      </div>
+    </div>
+  </section>
+  <!-- Our Service-->
+
+  <!-- Get In Touch -->
+  <section class=" bg-[#3534d2]">
+    <div class="container mx-auto h-full text-white py-12 montserrat">
+      <div class="flex flex-col gap-4">
+        <h3 class="text-center font-bold text-xl">Get In Touch</h3>
+        <h6 class="text-center">Stay connected with us.</h6>
+        <div class="flex flex-row gap-2 items-center justify-center">
+          <div>+62</div>
+          <input type="text" class="rounded-xl max-w-80 w-full px-2 py-1 text-[#3534d2] focus:outline-none">
+
+        </div>
+        <div
+        class="text-[#3534d2] mx-auto bg-white text-center px-8 py-2 uppercase font-bold tracking-widest hover:bg-opacity-50  rounded-xl cursor-pointer">
+        Submit</div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Get In Touch-->
+
+  <section class="py-4">
+    <div class="flex flex-col text-center gap-2">
+      <div class="font-bold font-montserrat text-3xl">company.</div>
+      <div class="text-xs">Developed with <span class="text-red-500">♡</span></div>
+    </div>
+  </section>
+</body>
+
 </html>
