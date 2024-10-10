@@ -17,12 +17,12 @@
 
 <body>
   <div class="container mx-auto">
-    <header class="flex flex-row items-center justify-between p-4">
+    <header class="flex flex-col xl:flex-row items-center justify-between p-4">
       <div class="flex w-full justify-between">
         <h3 class="font-bold font-montserrat text-3xl">company.</h3>
-        <div class="text-2xl font-bold">=</div>
+        <div class="text-2xl font-bold cursor-pointer block xl:hidden" id="ham-btn">=</div>
       </div>
-      <nav class="flex hidden flex-row font-montserrat gap-4 font-bold text-2xl">
+      <nav id="menu" class=" hidden xl:flex flex-col xl:flex-row font-montserrat gap-4 font-bold text-2xl">
         <div class="p-4">Demo</div>
         <div class="p-4">How It Works</div>
         <div class="p-4">Integrations</div>
@@ -148,4 +148,15 @@
   </section>
 </body>
 
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+
+  //DOM selector
+  // event on click
+  $("#ham-btn").click(function(){
+    //alert("Hello World!")
+      $("#menu").toggleClass("hidden")
+  })
+</script>
 </html>
